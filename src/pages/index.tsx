@@ -15,7 +15,10 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          
+          <p>{"Get started by adding status to the path like ->"}</p>
+          <a href={"https://gantavya.vercel.app/api/git.aashutosh.dev"}>
+            https://gantavya.vercel.app/api/git.aashutosh.dev
+          </a>
         </div>
       </main>
     </>
