@@ -16,8 +16,12 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>{"Get started by adding status to the path like ->"}</p>
-          <a href={"https://gantavya.aashutosh.dev/api/git.aashutosh.dev"}>
-            https://gantavya.aashutosh.dev/api/git.aashutosh.dev
+          <a
+            href={
+              "https://gantavya.aashutosh.dev/api/trace?url=git.aashutosh.dev"
+            }
+          >
+            https://gantavya.aashutosh.dev/api/trace?url=git.aashutosh.dev
           </a>
         </div>
       </main>
